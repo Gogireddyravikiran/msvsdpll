@@ -30,16 +30,18 @@ FD(frequency divider)
 
 # Simulated Output
 
-![image](https://user-images.githubusercontent.com/110079770/219592730-492dd5d3-b04f-47c1-820a-5b4ea25c2113.png)
+![image](https://user-images.githubusercontent.com/110079770/219592905-d53bf438-d52c-418d-ad89-93d8a76c1034.png)
+
+
 
 
 # CP(Charge Pump)
 
 ![image](https://user-images.githubusercontent.com/110079770/218623175-da54c5db-34b4-4859-8ccf-92dd86bf209c.png)
 
-#Simulated Output
+# Simulated Output
 
-![image](https://user-images.githubusercontent.com/110079770/219592905-d53bf438-d52c-418d-ad89-93d8a76c1034.png)
+![image](https://user-images.githubusercontent.com/110079770/219592730-492dd5d3-b04f-47c1-820a-5b4ea25c2113.png)
 
 
 # PLL
