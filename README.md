@@ -14,30 +14,42 @@ FD(frequency divider)
 
 # PD(Phase Detector)
 
-![image](https://user-images.githubusercontent.com/110079770/218622663-975cf457-f115-4a08-a8e2-67ea6e82a03a.png)
+![image](https://user-images.githubusercontent.com/110079770/219592091-287b9540-b966-4577-878b-411eaaa34976.png)
 
 # Simulated Output 
 
-![image](https://user-images.githubusercontent.com/110079770/218622895-18bd7543-5ee0-4f06-bff5-9099507f7a86.png)
+![image](https://user-images.githubusercontent.com/110079770/219592403-2cdd9227-8bbb-449f-8301-93c4af92d41b.png)
+
+![image](https://user-images.githubusercontent.com/110079770/219592475-6d91431a-3b3c-46b2-8144-20edb3066804.png)
 
 
 # VCO(Voltage Controlled Oscillator)
 
-![image](https://user-images.githubusercontent.com/110079770/218622989-4cd9fc85-2f87-46ca-9e9e-c79d0c12d99d.png)
+![image](https://user-images.githubusercontent.com/110079770/219592583-7b3adbac-c411-4786-81bd-ad7c13b7418c.png)
 
 
 # Simulated Output
 
-![image](https://user-images.githubusercontent.com/110079770/218623074-47588936-ff48-4e80-b790-dd24ee4e30f3.png)
+![image](https://user-images.githubusercontent.com/110079770/219592730-492dd5d3-b04f-47c1-820a-5b4ea25c2113.png)
 
 
 # CP(Charge Pump)
 
 ![image](https://user-images.githubusercontent.com/110079770/218623175-da54c5db-34b4-4859-8ccf-92dd86bf209c.png)
 
-# Error while using SCL Capacitor.
+#Simulated Output
 
-![image](https://user-images.githubusercontent.com/110079770/218623333-404fc829-0616-4d71-b6ac-1743e0021f73.png)
+![image](https://user-images.githubusercontent.com/110079770/219592905-d53bf438-d52c-418d-ad89-93d8a76c1034.png)
+
+
+# PLL
+
+![image](https://user-images.githubusercontent.com/110079770/219593114-ee1566a0-df3d-46a5-9e03-4398e859b9b7.png)
+
+# Simulated Output
+
+![image](https://user-images.githubusercontent.com/110079770/219593243-84d2ca9a-5d45-4270-ad53-b9e1f9e18dfa.png)
+
 
 
 
