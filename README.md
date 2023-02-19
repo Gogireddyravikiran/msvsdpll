@@ -18,9 +18,11 @@ FD(frequency divider)
 
 # Simulated Output 
 
-![image](https://user-images.githubusercontent.com/110079770/219592403-2cdd9227-8bbb-449f-8301-93c4af92d41b.png)
+![image](https://user-images.githubusercontent.com/110079770/219910205-7a4f4b9c-197b-4a22-9198-e2851cb5bcda.png)
 
-![image](https://user-images.githubusercontent.com/110079770/219592475-6d91431a-3b3c-46b2-8144-20edb3066804.png)
+
+![image](https://user-images.githubusercontent.com/110079770/219910273-1c91e4a3-c2c5-4106-aff0-f1a2be9e1ef1.png)
+
 
 
 # VCO(Voltage Controlled Oscillator)
