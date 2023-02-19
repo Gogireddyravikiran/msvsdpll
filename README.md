@@ -11,6 +11,17 @@ FD(frequency divider)
 
 # 180nm PLL Clock Multiplier IP
 
+<h3> Specifications </h3>
+
+| Parameter | Description | min | typ | max | Unit | Conditions |
+| --- | --- | --- | --- | --- | --- | --- |
+| VDD | Digital Supply | - | 1.8 | - | V | T = 27C |
+| F<sub>CLKREF</sub> | Reference | 10 | - |  | MHz | T = 27C |
+| F<sub>CLKOUT</sub> | Output Clock | 100 | - |  | MHz | PLL Mode, T = 27C |
+
+
+
+
 
 # PD(Phase Detector)
 
