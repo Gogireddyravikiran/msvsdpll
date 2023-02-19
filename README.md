@@ -57,7 +57,7 @@ FD(frequency divider)
 
 # Simulated Output
 
-![image](https://user-images.githubusercontent.com/110079770/219593243-84d2ca9a-5d45-4270-ad53-b9e1f9e18dfa.png)
+![image](https://user-images.githubusercontent.com/110079770/219919201-7ee25044-8e6e-433f-a187-8e2d552d2cc6.png)
 
 
 
