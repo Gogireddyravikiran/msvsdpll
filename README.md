@@ -45,6 +45,11 @@ FD(frequency divider)
 
 ![image](https://user-images.githubusercontent.com/110079770/219592730-492dd5d3-b04f-47c1-820a-5b4ea25c2113.png)
 
+# Frequency Divider
+
+![image](https://user-images.githubusercontent.com/110079770/219916777-5b0ca217-7c74-436a-b288-ed2ac33ac269.png)
+
+
 
 # PLL
 
