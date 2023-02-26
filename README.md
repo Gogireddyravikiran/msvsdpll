@@ -102,3 +102,4 @@ Duty Cycle obtained: &nbsp;&nbsp;&nbsp;46% at 40MHz and 40.6% at 100MHz
 
 * Ravi Kiran Reddy (Author), Mtech ECE - gogireddyravikiranreddy@gmail.com
 * Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalghosh@gmail.com
+
