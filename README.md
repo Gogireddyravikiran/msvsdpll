@@ -19,6 +19,21 @@ PLLs consist of a voltage-controlled oscillator (VCO), a phase detector, and a l
 
 PLLs have many applications in modern electronics, such as in frequency synthesis, clock generation, and phase modulation/demodulation.
 
+
+10x PLL Clock Multiplier IP on the SCL 180nm node.
+
+Tested through virtuoso simulations on scl <b>180nm tt corner at room termperature</b>
+
+Generates 10x Multiplied Clock
+
+<b> Pre-Layout: </b> <br>
+
+Frequency Obtained for  10Mhz input: &nbsp;&nbsp;&nbsp;100MHz <br>
+
+Duty Cycle obtained: &nbsp;&nbsp;&nbsp;46% at 40MHz and 40.6% at 100MHz
+
+3rd-Order Loop Filter used [c1, c2, c3, r1, r2, r3]: &nbsp;&nbsp;&nbsp;355fF, 350fF, 345fF, 490, 490, 490.
+
 <h3> Specifications </h3>
 
 | Parameter | Description | min | typ | max | Unit | Conditions |
@@ -26,6 +41,11 @@ PLLs have many applications in modern electronics, such as in frequency synthesi
 | VDD | Digital Supply | - | 1.8 | - | V | T = 27C |
 | F<sub>CLKREF</sub> | Reference | 10 | - |  | MHz | T = 27C |
 | F<sub>CLKOUT</sub> | Output Clock | 100 | - |  | MHz | PLL Mode, T = 27C |
+| J<sub>RMS</sub> | Jitter (rms) | - | - | - | ps | PLL_Mode |
+| DC | Duty Cycle | 52.7 | - | 50 | % | T = 27C | 
+| T<sub>SET</sub> | Settling Time | ~37 | - | ~22 | ns | T = 27C |
+| C<sub>L</sub> | Load Capacitance | - | - | - | fF | T = 27C |
+| IDD | Supply Current | - | - | - | fF | T = 27C |
 
 
 
