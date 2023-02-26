@@ -1,14 +1,3 @@
-# msvsdpll
-
-### Digital Block
-FD(frequency divider)
-
-
-### Analog Block
-###### VCO(Voltage Controlled Oscillator)
-###### CP(Charge Pump)
-###### PD(Phase Detector)
-
 # 180nm PLL Clock Multiplier IP
 
 PLL stands for Phase-Locked Loop, which is an electronic circuit that can synchronize its output frequency with an input frequency by adjusting its phase and frequency.
