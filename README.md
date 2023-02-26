@@ -15,6 +15,11 @@ Tested through virtuoso simulations on scl <b>180nm tt corner at room termperatu
 
 Generates 10x Multiplied Clock
 
+### PLL BLOCK DIAGRAM
+
+![image](https://user-images.githubusercontent.com/110079770/221420600-607404b2-fbcf-4365-932b-cef8cffd47ec.png)
+
+
 <b> Pre-Layout: </b> <br>
 
 Frequency Obtained for  10Mhz input: &nbsp;&nbsp;&nbsp;100MHz <br>
