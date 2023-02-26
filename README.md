@@ -11,6 +11,14 @@ FD(frequency divider)
 
 # 180nm PLL Clock Multiplier IP
 
+PLL stands for Phase-Locked Loop, which is an electronic circuit that can synchronize its output frequency with an input frequency by adjusting its phase and frequency.
+
+PLLs are commonly used in digital circuits, telecommunications, and radio communication systems. They are used to recover timing and frequency information from a noisy input signal or to generate a stable and accurate clock signal for digital systems.
+
+PLLs consist of a voltage-controlled oscillator (VCO), a phase detector, and a loop filter. The phase detector compares the phase of the input signal with the VCO output signal, and the loop filter adjusts the VCO frequency to minimize the phase error. The output frequency of the VCO is then used as the synchronized output signal.
+
+PLLs have many applications in modern electronics, such as in frequency synthesis, clock generation, and phase modulation/demodulation.
+
 <h3> Specifications </h3>
 
 | Parameter | Description | min | typ | max | Unit | Conditions |
