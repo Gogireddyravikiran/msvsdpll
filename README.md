@@ -94,4 +94,11 @@ Duty Cycle obtained: &nbsp;&nbsp;&nbsp;46% at 40MHz and 40.6% at 100MHz
 
 
 
+<h3> Acknowledgements </h3>
 
+* I thank Mr. Kunal Ghosh, co-founder [VSD](https://www.vlsisystemdesign.com/), for providing me the opportunity to  work on this wonderful project.
+
+<h3> Contact </h3>
+
+* Ravi Kiran Reddy (Author), Mtech ECE - gogireddyravikiranreddy@gmail.com
+* Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalghosh@gmail.com
