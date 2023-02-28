@@ -4,7 +4,7 @@
  - [1.Phase Locked Loop](#1-Phase-Locked-Loop)
  - [2.PLL BLOCK DIAGRAM](#2-PLL-BLOCK-DIAGRAM)
  - [3.Prelayout Simulations](#3-Prelayout-Simulations)
- - [4.Specifications](https://github.com/Gogireddyravikiran/msvsdpll/edit/main/README.md#-Specifications-)
+ - [4.Specifications](https://github.com/Gogireddyravikiran/msvsdpll/blob/main/README.md#-Specifications-)
  - [5.PD(Phase Detector)](#5-PD(Phase-Detector))
  - [6.VCO(Voltage Controlled Oscillator)](#6-VCO(Voltage-Controlled-Oscillator))
  - [7.CP(Charge Pump)](#7-CP(Charge-Pump))
