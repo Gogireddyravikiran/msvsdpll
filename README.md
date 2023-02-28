@@ -46,7 +46,7 @@ Lock in starts at 3.5ns
 3rd-Order Loop Filter used [c1, c2, c3, r1, r2, r3]: &nbsp;&nbsp;&nbsp;355fF, 350fF, 345fF, 490, 490, 490.
 
 ### Specifications
-<h3> Specifications </h3>
+
 
 | Parameter | Description | min | typ | max | Unit | Conditions |
 | --- | --- | --- | --- | --- | --- | --- |
