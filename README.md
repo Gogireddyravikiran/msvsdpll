@@ -147,3 +147,4 @@ Frequency dividers can be implemented using a variety of electronic components, 
 * Ravi Kiran Reddy (Author), Mtech ECE - gogireddyravikiranreddy@gmail.com
 * Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalghosh@gmail.com
 
+
