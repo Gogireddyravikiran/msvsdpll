@@ -1,17 +1,17 @@
 # 180nm PLL Clock Multiplier IP
 
 # Table of contents
- - [1.Phase Locked Loop](#1-Phase-Locked-Loop)
- - [2.PLL BLOCK DIAGRAM](#2-PLL-BLOCK-DIAGRAM)
- - [3.Prelayout Simulations](#3-Prelayout-Simulations)
+ - [1.Phase Locked Loop](https://github.com/Gogireddyravikiran/msvsdpll/blob/main/README.md#1-Phase-Locked-Loop)
+ - [2.PLL BLOCK DIAGRAM](https://github.com/Gogireddyravikiran/msvsdpll/blob/main/README.md#2-PLL-BLOCK-DIAGRAM)
+ - [3.Prelayout Simulations](https://github.com/Gogireddyravikiran/msvsdpll/blob/main/README.md#3-Prelayout-Simulations)
  - [4.Specifications](https://github.com/Gogireddyravikiran/msvsdpll/blob/main/README.md#-Specifications-)
- - [5.PD(Phase Detector)](#5-PD(Phase-Detector))
- - [6.VCO(Voltage Controlled Oscillator)](#6-VCO(Voltage-Controlled-Oscillator))
- - [7.CP(Charge Pump)](#7-CP(Charge-Pump))
- - [8.Frequency Divider](#8-Frequency-Divider)
- - [9.PLL](#9-PLL)
- - [10.Acknowledgements](#10-Acknowledgements)
- - [11.Contact](#11-Contact)
+ - [5.PD(Phase Detector)](https://github.com/Gogireddyravikiran/msvsdpll/blob/main/README.md#5-PD(Phase-Detector))
+ - [6.VCO(Voltage Controlled Oscillator)](https://github.com/Gogireddyravikiran/msvsdpll/blob/main/README.md#6-VCO(Voltage-Controlled-Oscillator))
+ - [7.CP(Charge Pump)](https://github.com/Gogireddyravikiran/msvsdpll/blob/main/README.md#7-CP(Charge-Pump))
+ - [8.Frequency Divider](https://github.com/Gogireddyravikiran/msvsdpll/blob/main/README.md#8-Frequency-Divider)
+ - [9.PLL](https://github.com/Gogireddyravikiran/msvsdpll/blob/main/README.md#9-PLL)
+ - [10.Acknowledgements](https://github.com/Gogireddyravikiran/msvsdpll/blob/main/README.md#10-Acknowledgements)
+ - [11.Contact](https://github.com/Gogireddyravikiran/msvsdpll/blob/main/README.md#11-Contact)
 
  # 1.Phase Locked Loop
 
