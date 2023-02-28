@@ -13,7 +13,7 @@
  - [10.Acknowledgements](#10-Acknowledgements)
  - [11.Contact](#11-Contact)
 
- ### 1.Phase Locked Loop
+ # 1.Phase Locked Loop
 
 PLL stands for Phase-Locked Loop, which is an electronic circuit that can synchronize its output frequency with an input frequency by adjusting its phase and frequency.
 
@@ -30,7 +30,7 @@ Tested through virtuoso simulations on scl <b>180nm tt corner at room termperatu
 
 Generates 10x Multiplied Clock
 
-### 2.PLL BLOCK DIAGRAM
+# 2.PLL BLOCK DIAGRAM
 
 ![image](https://user-images.githubusercontent.com/110079770/221420600-607404b2-fbcf-4365-932b-cef8cffd47ec.png)
 
