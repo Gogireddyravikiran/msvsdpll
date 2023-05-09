@@ -2,17 +2,17 @@
 
 # Table of contents
  - [Phase Locked Loop](#Phase-Locked-Loop)
- - [PLL BLOCK DIAGRAM](#PLL-BLOCK-DIAGRAM-)
- - [Prelayout Simulations](#Prelayout-Simulations-)
- - [Specifications](#Specifications-)
- - [PD(Phase Detector)](#PD(Phase-Detector)-)
- - [VCO(Voltage Controlled Oscillator)](#VCO(Voltage-Controlled-Oscillator)-)
- - [CP(Charge Pump)](#CP(Charge-Pump)-)
- - [Frequency Divider](#Frequency-Divider-)
- - [PLL](#PLL-)
- - [PLL Layout](#PLL-Layout-)
- - [Acknowledgements](#Acknowledgements-)
- - [Contact](#Contact-)
+ - [PLL BLOCK DIAGRAM](#PLL-BLOCK-DIAGRAM)
+ - [Prelayout Simulations](#Prelayout-Simulations)
+ - [Specifications](#Specifications)
+ - [PD(Phase Detector)](#PD(Phase-Detector))
+ - [VCO(Voltage Controlled Oscillator)](#VCO(Voltage-Controlled-Oscillator))
+ - [CP(Charge Pump)](#CP(Charge-Pump))
+ - [Frequency Divider](#Frequency-Divider)
+ - [PLL](#PLL)
+ - [PLL Layout](#PLL-Layout)
+ - [Acknowledgements](#Acknowledgements)
+ - [Contact](#Contact)
 
 
 
