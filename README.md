@@ -136,6 +136,39 @@ Frequency dividers can be implemented using a variety of electronic components, 
 
 ![image](https://user-images.githubusercontent.com/110079770/219919201-7ee25044-8e6e-433f-a187-8e2d552d2cc6.png)
 
+### 10.PLL Layout
+
+PLL (Phase Locked Loop) is a widely used circuit for frequency synthesis and clock generation. In Cadence Virtuoso, the PLL layout theory involves designing and implementing the PLL circuit using a set of layout techniques and design rules to ensure that the circuit functions correctly.
+
+Here are some key steps in PLL layout theory in Cadence Virtuoso:
+
+Layout Planning: Before starting the layout, it's essential to have a clear understanding of the PLL circuit's specifications and requirements. This includes the frequency range, phase noise requirements, jitter tolerance, and other parameters. Based on this, the layout engineer can plan the layout, including the PLL's size, number of components, and their relative placement.
+
+Floorplanning: Once the layout plan is finalized, the next step is to create a floorplan. This involves dividing the chip area into different blocks and assigning each block a specific function. For example, the VCO, phase detector, and loop filter blocks should be placed close together to minimize parasitic effects.
+
+Component Placement: In the component placement phase, the layout engineer places each component in the designated block. The placement should follow design rules such as minimum spacing and clearance between components to avoid any signal interference or cross-talk.
+
+Routing: Once the component placement is done, routing begins. Routing is the process of creating interconnections between components to form the PLL circuit. The routing should follow design rules to ensure signal integrity and minimize parasitic effects such as resistance and capacitance.
+
+Parasitic Extraction: After the routing is complete, the layout engineer performs parasitic extraction to determine the parasitic effects of the components and interconnections. The extracted parasitics are used to perform a post-layout simulation to verify that the PLL meets the desired specifications and requirements.
+
+Design Verification: Once the layout is complete, the PLL circuit undergoes design verification to ensure that it meets the desired specifications. This involves performing simulations such as transient, frequency domain, and phase noise analysis.
+
+In summary, PLL layout theory in Cadence Virtuoso involves planning, floorplanning, component placement, routing, parasitic extraction, and design verification. These steps ensure that the PLL circuit functions correctly and meets the desired specifications and requirements.
+
+### Layout of PLL
+
+### This layout includes phase detector,loop filter,voltage control oscillator,charge pump.
+
+![image](https://user-images.githubusercontent.com/110079770/237019384-e60eebda-c508-44d5-9660-54be1c60a9d1.png)
+
+### This Layout includes frequency detector.
+
+![image](https://user-images.githubusercontent.com/110079770/237019762-afd81727-d090-47e2-a3bb-30aa06d29965.png)
+
+### Whole PLL Layout.
+
+![image](https://user-images.githubusercontent.com/110079770/237018737-8eb63cf3-0ac9-4ddd-ba2e-3ca35dddec72.png)
 
 
 ### 10.Acknowledgements
