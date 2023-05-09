@@ -1,7 +1,7 @@
 # 180nm PLL Clock Multiplier IP
 
 # Table of contents
- - [1.Phase Locked Loop](1-Phase-Locked-Loop)
+ - [1.Phase Locked Loop](#1-Phase-Locked-Loop)
  - [2.PLL BLOCK DIAGRAM](https://github.com/Gogireddyravikiran/msvsdpll/blob/main/README.md#-PLL-BLOCK-DIAGRAM-)
  - [3.Prelayout Simulations](https://github.com/Gogireddyravikiran/msvsdpll/blob/main/README.md#-Prelayout-Simulations-)
  - [4.Specifications](https://github.com/Gogireddyravikiran/msvsdpll/blob/main/README.md#-Specifications-)
