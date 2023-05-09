@@ -1,33 +1,21 @@
 # 180nm PLL Clock Multiplier IP
 
 # Table of contents
- - [1.Phase Locked Loop](#1-Phase-Locked-Loop)
- - [2.PLL BLOCK DIAGRAM](#2-PLL-BLOCK-DIAGRAM-)
- - [3.Prelayout Simulations](#3-Prelayout-Simulations-)
- - [4.Specifications](#4-Specifications-)
- - [5.PD(Phase Detector)](#5-PD(Phase-Detector)-)
- - [6.VCO(Voltage Controlled Oscillator)](#6-VCO(Voltage-Controlled-Oscillator)-)
- - [7.CP(Charge Pump)](#7-CP(Charge-Pump)-)
- - [8.Frequency Divider](#8-Frequency-Divider-)
- - [9.PLL](#9-PLL-)
- - [10.PLL Layout](#10-PLL-Layout-)
- - [11.Acknowledgements](#11-Acknowledgements-)
- - [12.Contact](#12-Contact-)
+ - [Phase Locked Loop](#Phase-Locked-Loop)
+ - [PLL BLOCK DIAGRAM](#PLL-BLOCK-DIAGRAM-)
+ - [Prelayout Simulations](#Prelayout-Simulations-)
+ - [Specifications](#Specifications-)
+ - [PD(Phase Detector)](#PD(Phase-Detector)-)
+ - [VCO(Voltage Controlled Oscillator)](#VCO(Voltage-Controlled-Oscillator)-)
+ - [CP(Charge Pump)](#CP(Charge-Pump)-)
+ - [Frequency Divider](#Frequency-Divider-)
+ - [PLL](#PLL-)
+ - [PLL Layout](#PLL-Layout-)
+ - [Acknowledgements](#Acknowledgements-)
+ - [Contact](#Contact-)
 
 
-## *Contents*
----------------
-* [Phase Locked Loop](#Phase-Locked-Loop)
 
-* [Day 2](#day-2)
-
-* [Day 3](#day-3)
-
-* [Day 4](#day-4)
-
-* [Day 5](#day-5)
-
-* [Acknowledgement](#acknowledgement)
 
  ### Phase Locked Loop
 
@@ -130,7 +118,7 @@ Charge pumps are used in a variety of electronic applications, including voltage
 
 ![image](https://user-images.githubusercontent.com/110079770/219592730-492dd5d3-b04f-47c1-820a-5b4ea25c2113.png)
 
-### 8.Frequency Divider
+### Frequency Divider
 
 A frequency divider is an electronic circuit that takes an input signal of a certain frequency and generates an output signal with a lower frequency. This is accomplished by dividing the input frequency by a fixed integer value, known as the division ratio.
 
@@ -144,7 +132,7 @@ Frequency dividers can be implemented using a variety of electronic components, 
 
 
 
-### 9.PLL
+### PLL
 
 ![image](https://user-images.githubusercontent.com/110079770/219593114-ee1566a0-df3d-46a5-9e03-4398e859b9b7.png)
 
@@ -152,7 +140,7 @@ Frequency dividers can be implemented using a variety of electronic components, 
 
 ![image](https://user-images.githubusercontent.com/110079770/219919201-7ee25044-8e6e-433f-a187-8e2d552d2cc6.png)
 
-### 10.PLL Layout
+### PLL Layout
 
 PLL (Phase Locked Loop) is a widely used circuit for frequency synthesis and clock generation. In Cadence Virtuoso, the PLL layout theory involves designing and implementing the PLL circuit using a set of layout techniques and design rules to ensure that the circuit functions correctly.
 
@@ -203,11 +191,11 @@ These individual blocks of a PLL circuit are interconnected using routing layers
 ![image](https://user-images.githubusercontent.com/110079770/237018737-8eb63cf3-0ac9-4ddd-ba2e-3ca35dddec72.png)
 
 
-### 11.Acknowledgements
+### Acknowledgements
 
 * I thank Mr. Kunal Ghosh, co-founder [VSD](https://www.vlsisystemdesign.com/), for providing me the opportunity to  work on this wonderful project.
 
-### 12.Contact 
+### Contact 
 
 * Ravi Kiran Reddy (Author), Mtech ECE - gogireddyravikiranreddy@gmail.com
 * Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalghosh@gmail.com
