@@ -2,17 +2,17 @@
 
 # Table of contents
  - [1.Phase Locked Loop](#1-Phase-Locked-Loop)
- - [2.PLL BLOCK DIAGRAM](https://github.com/Gogireddyravikiran/msvsdpll/blob/main/README.md#-PLL-BLOCK-DIAGRAM-)
- - [3.Prelayout Simulations](https://github.com/Gogireddyravikiran/msvsdpll/blob/main/README.md#-Prelayout-Simulations-)
- - [4.Specifications](https://github.com/Gogireddyravikiran/msvsdpll/blob/main/README.md#-Specifications-)
- - [5.PD(Phase Detector)](https://github.com/Gogireddyravikiran/msvsdpll/blob/main/README.md#-PD(Phase-Detector)-)
- - [6.VCO(Voltage Controlled Oscillator)](https://github.com/Gogireddyravikiran/msvsdpll/blob/main/README.md#-VCO(Voltage-Controlled-Oscillator)-)
- - [7.CP(Charge Pump)](https://github.com/Gogireddyravikiran/msvsdpll/blob/main/README.md#-CP(Charge-Pump)-)
- - [8.Frequency Divider](https://github.com/Gogireddyravikiran/msvsdpll/blob/main/README.md#-Frequency-Divider-)
- - [9.PLL](https://github.com/Gogireddyravikiran/msvsdpll/blob/main/README.md#-PLL-)
- - [10.PLL Layout](https://github.com/Gogireddyravikiran/msvsdpll/blob/main/README.md#-PLL-Layout-)
- - [11.Acknowledgements](https://github.com/Gogireddyravikiran/msvsdpll/blob/main/README.md#-Acknowledgements-)
- - [12.Contact](https://github.com/Gogireddyravikiran/msvsdpll/blob/main/README.md#-Contact-)
+ - [2.PLL BLOCK DIAGRAM](#2-PLL-BLOCK-DIAGRAM-)
+ - [3.Prelayout Simulations](#3-Prelayout-Simulations-)
+ - [4.Specifications](#4-Specifications-)
+ - [5.PD(Phase Detector)](#5-PD(Phase-Detector)-)
+ - [6.VCO(Voltage Controlled Oscillator)](#6-VCO(Voltage-Controlled-Oscillator)-)
+ - [7.CP(Charge Pump)](#7-CP(Charge-Pump)-)
+ - [8.Frequency Divider](#8-Frequency-Divider-)
+ - [9.PLL](#9-PLL-)
+ - [10.PLL Layout](#10-PLL-Layout-)
+ - [11.Acknowledgements](#11-Acknowledgements-)
+ - [12.Contact](#12-Contact-)
 
  ### Phase Locked Loop
 
