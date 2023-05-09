@@ -10,8 +10,9 @@
  - [7.CP(Charge Pump)](https://github.com/Gogireddyravikiran/msvsdpll/blob/main/README.md#-CP(Charge-Pump)-)
  - [8.Frequency Divider](https://github.com/Gogireddyravikiran/msvsdpll/blob/main/README.md#-Frequency-Divider-)
  - [9.PLL](https://github.com/Gogireddyravikiran/msvsdpll/blob/main/README.md#-PLL-)
- - [10.Acknowledgements](https://github.com/Gogireddyravikiran/msvsdpll/blob/main/README.md#-Acknowledgements-)
- - [11.Contact](https://github.com/Gogireddyravikiran/msvsdpll/blob/main/README.md#-Contact-)
+ - [10.PLL Layout](https://github.com/Gogireddyravikiran/msvsdpll/blob/main/README.md#-PLL-Layout-)
+ - [11.Acknowledgements](https://github.com/Gogireddyravikiran/msvsdpll/blob/main/README.md#-Acknowledgements-)
+ - [12.Contact](https://github.com/Gogireddyravikiran/msvsdpll/blob/main/README.md#-Contact-)
 
  ### Phase Locked Loop
 
@@ -171,11 +172,11 @@ In summary, PLL layout theory in Cadence Virtuoso involves planning, floorplanni
 ![image](https://user-images.githubusercontent.com/110079770/237018737-8eb63cf3-0ac9-4ddd-ba2e-3ca35dddec72.png)
 
 
-### 10.Acknowledgements
+### 11.Acknowledgements
 
 * I thank Mr. Kunal Ghosh, co-founder [VSD](https://www.vlsisystemdesign.com/), for providing me the opportunity to  work on this wonderful project.
 
-### 11.Contact 
+### 12.Contact 
 
 * Ravi Kiran Reddy (Author), Mtech ECE - gogireddyravikiranreddy@gmail.com
 * Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalghosh@gmail.com
