@@ -1,0 +1,199 @@
+// Generated for: spectre
+// Generated on: May  9 11:37:55 2023
+// Design library name: PLL
+// Design cell name: pll_new1
+// Design view name: schematic
+simulator lang=spectre
+global 0
+
+// Library name: PLL
+// Cell name: VCO
+// View name: schematic
+subckt VCO out vctrl
+    M17 (net2 net5 net6 net6) p18 w=1.08 l=0.18 as=0.1984 ad=0.1984 \
+        ps=1.88 pd=1.88 m=1
+    M18 (out net1 net6 net6) p18 w=5 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+    M12 (net1 net41 net2 net2) p18 w=2.4 l=0.18 as=0.1984 ad=0.1984 \
+        ps=1.88 pd=1.88 m=1
+    M4 (net41 net19 net2 net2) p18 w=0.84 l=0.18 as=0.1984 ad=0.1984 \
+        ps=1.88 pd=1.88 m=1
+    M3 (net19 net15 net2 net2) p18 w=0.84 l=0.18 as=0.1984 ad=0.1984 \
+        ps=1.88 pd=1.88 m=1
+    M2 (net15 net11 net2 net2) p18 w=0.84 l=0.18 as=0.1984 ad=0.1984 \
+        ps=1.88 pd=1.88 m=1
+    M1 (net11 net7 net2 net2) p18 w=0.84 l=0.18 as=0.1984 ad=0.1984 \
+        ps=1.88 pd=1.88 m=1
+    M0 (net7 net3 net2 net2) p18 w=0.84 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+    M6 (net3 net1 net2 net2) p18 w=0.84 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+    M15 (net5 net5 net6 net6) p18 w=0.84 l=0.18 as=0.1984 ad=0.1984 \
+        ps=1.88 pd=1.88 m=1
+    M19 (net5 vctrl 0 0) n18 w=0.84 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+    M16 (out net1 0 0) n18 w=5 l=0.18 as=0.1984 ad=0.1984 ps=1.88 pd=1.88 \
+        m=1
+    M14 (net21 vctrl 0 0) n18 w=1.08 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+    M13 (net1 net41 net21 net21) n18 w=1.2 l=0.18 as=0.1984 ad=0.1984 \
+        ps=1.88 pd=1.88 m=1
+    M11 (net41 net19 net21 net21) n18 w=0.42 l=0.18 as=0.1984 ad=0.1984 \
+        ps=1.88 pd=1.88 m=1
+    M10 (net3 net1 net21 net21) n18 w=0.42 l=0.18 as=0.1984 ad=0.1984 \
+        ps=1.88 pd=1.88 m=1
+    M9 (net19 net15 net21 net21) n18 w=0.42 l=0.18 as=0.1984 ad=0.1984 \
+        ps=1.88 pd=1.88 m=1
+    M8 (net15 net11 net21 net21) n18 w=0.42 l=0.18 as=0.1984 ad=0.1984 \
+        ps=1.88 pd=1.88 m=1
+    M7 (net11 net7 net21 net21) n18 w=0.42 l=0.18 as=0.1984 ad=0.1984 \
+        ps=1.88 pd=1.88 m=1
+    M5 (net7 net3 net21 net21) n18 w=0.42 l=0.18 as=0.1984 ad=0.1984 \
+        ps=1.88 pd=1.88 m=1
+    V2 (net6 0) vsource dc=1.8 type=dc
+    C4 (out 0) capacitor c=24f
+ends VCO
+// End of subcircuit definition.
+
+// Library name: PLL
+// Cell name: INVERTER
+// View name: schematic
+subckt INVERTER VIN VOUT
+    M0 (VOUT VIN 0 0) n18 w=0.36 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+    M1 (VOUT VIN net1 net1) p18 w=0.72 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+    V0 (net1 0) vsource dc=1.8 type=dc
+ends INVERTER
+// End of subcircuit definition.
+
+// Library name: PLL
+// Cell name: frequency_detctor
+// View name: schematic
+subckt frequency_detctor in out
+    M3 (net4 clkb out 0) n18 w=0.42 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+    M0 (net1 clk net2 0) n18 w=0.72 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+    M2 (net4 clk out net3) p18 w=0.42 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+    M1 (net1 clkb net2 net3) p18 w=0.72 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+    I4 (in net1) INVERTER
+    I6 (out in) INVERTER
+    I7 (clk clkb) INVERTER
+    I5 (net2 net4) INVERTER
+    V3 (net3 0) vsource dc=1.8 type=dc
+    V1 (clk 0) vsource type=pulse val0=0 val1=1.8 period=10n delay=2n \
+        rise=6p fall=6p width=5n
+    C0 (out 0) capacitor c=18f
+ends frequency_detctor
+// End of subcircuit definition.
+
+// Library name: PLL
+// Cell name: loop_filter
+// View name: schematic
+subckt loop_filter in out
+    R2 (out net2) resistor r=490K
+    R1 (net1 out) resistor r=490K
+    R0 (in net1) resistor r=490K
+    C2 (net2 0) capacitor c=345f
+    C1 (out 0) capacitor c=350f
+    C0 (net1 0) capacitor c=355f
+ends loop_filter
+// End of subcircuit definition.
+
+// Library name: PLL
+// Cell name: PFD
+// View name: schematic
+subckt PFD DN UP clkref clkvco
+    M9 (clkvco clkvco net10 net16) p18 w=0.64 l=0.18 as=0.1984 ad=0.1984 \
+        ps=1.88 pd=1.88 m=1
+    M5 (net5 clkvco net4 net4) p18 w=0.64 l=0.18 as=0.1984 ad=0.1984 \
+        ps=1.88 pd=1.88 m=1
+    M4 (clkref clkref 8 net11) p18 w=0.64 l=0.18 as=0.1984 ad=0.1984 \
+        ps=1.88 pd=1.88 m=1
+    M0 (net2 clkref net1 net1) p18 w=0.64 l=0.18 as=0.1984 ad=0.1984 \
+        ps=1.88 pd=1.88 m=1
+    M8 (net10 clkvco net5 0) n18 w=2.4 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+    M7 (net6 clkref 0 0) n18 w=0.36 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+    M6 (net5 clkvco net6 0) n18 w=1.8 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+    M3 (8 clkref net2 0) n18 w=2.4 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+    M2 (net3 clkvco 0 0) n18 w=0.36 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+    M1 (net2 clkref net3 0) n18 w=1.8 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+    V4 (net16 0) vsource dc=1.8 type=dc
+    V3 (net11 0) vsource dc=1.8 type=dc
+    V2 (net4 0) vsource dc=1.8 type=dc
+    V0 (net1 0) vsource dc=1.8 type=dc
+    I19 (net9 UP) INVERTER
+    I18 (8 net9) INVERTER
+    I22 (net10 net12) INVERTER
+    I23 (net12 DN) INVERTER
+    C5 (DN 0) capacitor c=6f
+    C4 (UP 0) capacitor c=6f
+ends PFD
+// End of subcircuit definition.
+
+// Library name: PLL
+// Cell name: cp_new
+// View name: schematic
+subckt cp_new DN UP out
+    I32 (DN net2) INVERTER
+    I31 (UP net1) INVERTER
+    V6 (net11 0) vsource dc=1.8 type=dc
+    V5 (net8 0) vsource dc=1.8 type=dc
+    V4 (net6 0) vsource dc=1.8 type=dc
+    V3 (net3 0) vsource dc=1.8 type=dc
+    M18 (net10 net10 net3 net11) p18 w=0.42 l=0.18 as=0.1984 ad=0.1984 \
+        ps=1.88 pd=1.88 m=1
+    M16 (net9 DN net5 net8) p18 w=5.4 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+    M12 (out net2 net5 net6) p18 w=0.42 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+    M11 (net5 net4 net3 net3) p18 w=5.4 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+    M10 (net4 net4 net3 net3) p18 w=0.42 l=0.18 as=0.1984 ad=0.1984 \
+        ps=1.88 pd=1.88 m=1
+    M19 (net10 net1 net7 0) n18 w=5.4 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+    M17 (net9 net9 0 0) n18 w=0.42 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+    M15 (8 8 0 0) n18 w=0.42 l=0.18 as=0.1984 ad=0.1984 ps=1.88 pd=1.88 \
+        m=1
+    M14 (net7 8 0 0) n18 w=5.4 l=0.18 as=0.1984 ad=0.1984 ps=1.88 pd=1.88 \
+        m=1
+    M13 (out UP net7 0) n18 w=0.42 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+    R0 (out net12) resistor r=200
+    C4 (net12 0) capacitor c=8f
+ends cp_new
+// End of subcircuit definition.
+
+// Library name: PLL
+// Cell name: pll_new1
+// View name: schematic
+I3 (OUT net5) VCO
+I8 (OUT net3) frequency_detctor
+I9 (net2 net5) loop_filter
+V1 (net4 0) vsource type=pulse val0=0 val1=1.8 period=100n rise=6p fall=6p \
+        width=50n
+I1 (net6 net1 net4 net3) PFD
+I2 (net6 net1 net2) cp_new
+C0 (OUT 0) capacitor c=1f
+simulatorOptions options psfversion="1.4.0" reltol=1e-3 vabstol=1e-6 \
+    iabstol=1e-12 temp=27 tnom=27 scalem=1.0 scale=1.0 gmin=1e-12 rforce=1 \
+    maxnotes=5 maxwarns=5 digits=5 cols=80 pivrel=1e-3 \
+    sensfile="../psf/sens.output" checklimitdest=psf 
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts where=rawfile
+saveOptions options save=allpub

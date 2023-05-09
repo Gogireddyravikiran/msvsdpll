@@ -1,0 +1,64 @@
+// Generated for: spectre
+// Generated on: May  9 11:42:42 2023
+// Design library name: PLL
+// Design cell name: PFD
+// Design view name: schematic
+simulator lang=spectre
+global 0
+
+// Library name: PLL
+// Cell name: INVERTER
+// View name: schematic
+subckt INVERTER VIN VOUT
+    M0 (VOUT VIN 0 0) n18 w=0.36 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+    M1 (VOUT VIN net1 net1) p18 w=0.72 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+    V0 (net1 0) vsource dc=1.8 type=dc
+ends INVERTER
+// End of subcircuit definition.
+
+// Library name: PLL
+// Cell name: PFD
+// View name: schematic
+M9 (clkvco clkvco net10 net16) p18 w=0.64 l=0.18 as=0.1984 ad=0.1984 \
+        ps=1.88 pd=1.88 m=1
+M5 (net5 clkvco net4 net4) p18 w=0.64 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+M4 (clkref clkref 8 net11) p18 w=0.64 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+M0 (net2 clkref net1 net1) p18 w=0.64 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+M8 (net10 clkvco net5 0) n18 w=2.4 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+M7 (net6 clkref 0 0) n18 w=0.36 l=0.18 as=0.1984 ad=0.1984 ps=1.88 pd=1.88 \
+        m=1
+M6 (net5 clkvco net6 0) n18 w=1.8 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+M3 (8 clkref net2 0) n18 w=2.4 l=0.18 as=0.1984 ad=0.1984 ps=1.88 pd=1.88 \
+        m=1
+M2 (net3 clkvco 0 0) n18 w=0.36 l=0.18 as=0.1984 ad=0.1984 ps=1.88 pd=1.88 \
+        m=1
+M1 (net2 clkref net3 0) n18 w=1.8 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+V4 (net16 0) vsource dc=1.8 type=dc
+V3 (net11 0) vsource dc=1.8 type=dc
+V2 (net4 0) vsource dc=1.8 type=dc
+V0 (net1 0) vsource dc=1.8 type=dc
+I19 (net9 UP) INVERTER
+I18 (8 net9) INVERTER
+I22 (net10 net12) INVERTER
+I23 (net12 DN) INVERTER
+C5 (DN 0) capacitor c=6f
+C4 (UP 0) capacitor c=6f
+simulatorOptions options psfversion="1.4.0" reltol=1e-3 vabstol=1e-6 \
+    iabstol=1e-12 temp=27 tnom=27 scalem=1.0 scale=1.0 gmin=1e-12 rforce=1 \
+    maxnotes=5 maxwarns=5 digits=5 cols=80 pivrel=1e-3 \
+    sensfile="../psf/sens.output" checklimitdest=psf 
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts where=rawfile
+saveOptions options save=allpub

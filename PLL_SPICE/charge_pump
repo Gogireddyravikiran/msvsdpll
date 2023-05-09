@@ -1,0 +1,60 @@
+// Generated for: spectre
+// Generated on: May  9 11:43:42 2023
+// Design library name: PLL
+// Design cell name: cp_new
+// Design view name: schematic
+simulator lang=spectre
+global 0
+
+// Library name: PLL
+// Cell name: INVERTER
+// View name: schematic
+subckt INVERTER VIN VOUT
+    M0 (VOUT VIN 0 0) n18 w=0.36 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+    M1 (VOUT VIN net1 net1) p18 w=0.72 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+    V0 (net1 0) vsource dc=1.8 type=dc
+ends INVERTER
+// End of subcircuit definition.
+
+// Library name: PLL
+// Cell name: cp_new
+// View name: schematic
+I32 (DN net2) INVERTER
+I31 (UP net1) INVERTER
+V6 (net11 0) vsource dc=1.8 type=dc
+V5 (net8 0) vsource dc=1.8 type=dc
+V4 (net6 0) vsource dc=1.8 type=dc
+V3 (net3 0) vsource dc=1.8 type=dc
+M18 (net10 net10 net3 net11) p18 w=0.42 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+M16 (net9 DN net5 net8) p18 w=5.4 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+M12 (out net2 net5 net6) p18 w=0.42 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+M11 (net5 net4 net3 net3) p18 w=5.4 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+M10 (net4 net4 net3 net3) p18 w=0.42 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+M19 (net10 net1 net7 0) n18 w=5.4 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+M17 (net9 net9 0 0) n18 w=0.42 l=0.18 as=0.1984 ad=0.1984 ps=1.88 pd=1.88 \
+        m=1
+M15 (8 8 0 0) n18 w=0.42 l=0.18 as=0.1984 ad=0.1984 ps=1.88 pd=1.88 m=1
+M14 (net7 8 0 0) n18 w=5.4 l=0.18 as=0.1984 ad=0.1984 ps=1.88 pd=1.88 m=1
+M13 (out UP net7 0) n18 w=0.42 l=0.18 as=0.1984 ad=0.1984 ps=1.88 pd=1.88 \
+        m=1
+R0 (out net12) resistor r=200
+C4 (net12 0) capacitor c=8f
+simulatorOptions options psfversion="1.4.0" reltol=1e-3 vabstol=1e-6 \
+    iabstol=1e-12 temp=27 tnom=27 scalem=1.0 scale=1.0 gmin=1e-12 rforce=1 \
+    maxnotes=5 maxwarns=5 digits=5 cols=80 pivrel=1e-3 \
+    sensfile="../psf/sens.output" checklimitdest=psf 
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts where=rawfile
+saveOptions options save=allpub

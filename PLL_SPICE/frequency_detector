@@ -1,0 +1,50 @@
+// Generated for: spectre
+// Generated on: May  9 11:45:36 2023
+// Design library name: PLL
+// Design cell name: frequency_detctor
+// Design view name: schematic
+simulator lang=spectre
+global 0
+
+// Library name: PLL
+// Cell name: INVERTER
+// View name: schematic
+subckt INVERTER VIN VOUT
+    M0 (VOUT VIN 0 0) n18 w=0.36 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+    M1 (VOUT VIN net1 net1) p18 w=0.72 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+    V0 (net1 0) vsource dc=1.8 type=dc
+ends INVERTER
+// End of subcircuit definition.
+
+// Library name: PLL
+// Cell name: frequency_detctor
+// View name: schematic
+M3 (net4 clkb out 0) n18 w=0.42 l=0.18 as=0.1984 ad=0.1984 ps=1.88 pd=1.88 \
+        m=1
+M0 (net1 clk net2 0) n18 w=0.72 l=0.18 as=0.1984 ad=0.1984 ps=1.88 pd=1.88 \
+        m=1
+M2 (net4 clk out net3) p18 w=0.42 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+M1 (net1 clkb net2 net3) p18 w=0.72 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+I4 (in net1) INVERTER
+I6 (out in) INVERTER
+I7 (clk clkb) INVERTER
+I5 (net2 net4) INVERTER
+V3 (net3 0) vsource dc=1.8 type=dc
+V1 (clk 0) vsource type=pulse val0=0 val1=1.8 period=10n delay=2n rise=6p \
+        fall=6p width=5n
+C0 (out 0) capacitor c=18f
+simulatorOptions options psfversion="1.4.0" reltol=1e-3 vabstol=1e-6 \
+    iabstol=1e-12 temp=27 tnom=27 scalem=1.0 scale=1.0 gmin=1e-12 rforce=1 \
+    maxnotes=5 maxwarns=5 digits=5 cols=80 pivrel=1e-3 \
+    sensfile="../psf/sens.output" checklimitdest=psf 
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts where=rawfile
+saveOptions options save=allpub
