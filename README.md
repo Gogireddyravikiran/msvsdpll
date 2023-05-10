@@ -11,6 +11,8 @@
  - [Frequency Divider](#Frequency-Divider)
  - [PLL](#PLL)
  - [PLL Layout](#PLL-Layout)
+ - [Future Work](#Future-Work)
+ - [Contributors](#Contributors)
  - [Acknowledgements](#Acknowledgements)
  - [Contact](#Contact)
 
@@ -190,6 +192,14 @@ These individual blocks of a PLL circuit are interconnected using routing layers
 
 ![image](https://user-images.githubusercontent.com/110079770/237018737-8eb63cf3-0ac9-4ddd-ba2e-3ca35dddec72.png)
 
+### Future Work
+
+Post-layout simulations are pending due to PDK integration issues.
+
+### Contributors
+
+GOGIREDDY RAVI KIRAN REDDY
+KUNAL GHOSH
 
 ### Acknowledgements
 
