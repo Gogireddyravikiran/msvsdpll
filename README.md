@@ -198,8 +198,8 @@ Post-layout simulations are pending due to PDK integration issues.
 
 ### Contributors
 
-GOGIREDDY RAVI KIRAN REDDY
-KUNAL GHOSH
+* GOGIREDDY RAVI KIRAN REDDY
+* KUNAL GHOSH
 
 ### Acknowledgements
 
